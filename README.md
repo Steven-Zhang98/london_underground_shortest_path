@@ -13,4 +13,5 @@ Running the Application: Execute the main.py script
 Customisation: Users can personalise their experience by modifying the stations.txt file and adjusting UI elements like fonts and backgrounds to suit their preferences.
 
 ### To-Do list
-- 参考范范笔记（链接）形成前端和代码解释[GitHub - ShiyuFan0820/ShortestPathInLondonUnderground](https://github.com/ShiyuFan0820/ShortestPathInLondonUnderground/tree/main)
+- Refer to fanfan's notes (link) to form the front end and code explanations[GitHub - ShiyuFan0820/ShortestPathInLondonUnderground](https://github.com/ShiyuFan0820/ShortestPathInLondonUnderground/tree/main)
+- Add an examples
