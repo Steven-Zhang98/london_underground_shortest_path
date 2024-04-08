@@ -1,13 +1,18 @@
 ---
-in: 
+in:
+  - "[[Project]]"
+  - "[[Meta CS]]"
 up: 
 down: 
-related: 
+related:
+  - "[[note_1_overview]]"
 opposite: 
 by: 
 created: 2024-04-08
-tags: 
-due-date:
+tags:
+  - on🔥
+due-date: 2024-04-08
+rank: 9
 ---
 ```python
 class FileDataLoader():
