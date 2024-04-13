@@ -1,14 +1,5 @@
-```python
-from abc import ABC,abstractmethod
-
-class AbstractLoadData(ABC):
-	@abstractmethod
-	def load_data():
-		pass
-
-class FileDataLoader(AbstractLoadData):
+class FileDataLoader():
 	def __init__(self,filename) -> None:
-		super().__init__()
 		self.m_filename = filename
 
 	def load_data(self):
@@ -86,9 +77,7 @@ class StationTree:
 					station_queue.append((neighbor_id, path + [neighbor_id]))	
 			
 class StationFinder:
-	def __init__(self, data_loader: AbstractLoadData) -> None:
-		self.m_data_loader = data_loader
-		self.m_data_loader.load_data()
+	def __init__(self) -> None:
 
 	def get_path(self, from_station:str, to_station:str):
 		from_station_node = StationNode(from_station)
@@ -115,4 +104,3 @@ if __name__ == "__main__":
 		except StationNotFoundError as e:
 			print(e)
 		
-```
