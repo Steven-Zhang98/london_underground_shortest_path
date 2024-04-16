@@ -11,7 +11,7 @@ rank:
 tags:
 ---
 ## Data Storage and access
-4321
+
 - Firstly, the system uses the **FileDataLoader** class to load subway station information from a text file, including station ID, name, and neighbouring stations.
 
 - The **StationInfo class** aims to provide an interface for querying station information, such as obtaining an ID based on the station name, retrieving the station name based on the ID, and getting a list of neighbouring station IDs. This design pattern, which **separates** data access from data storage, helps improve code maintainability and scalability.
